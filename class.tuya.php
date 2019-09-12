@@ -172,7 +172,7 @@ class Tuya {
             $username_type = "1";
         }
         // Create the API endpoint
-        $url = "v1.0/apps/$this->schema/user";
+        $url = "v1.0/apps/$this->schema/user-check";
         // Define the data to be sent in the request
         $data = array(
             'country_code' => '386',
